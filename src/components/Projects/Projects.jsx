@@ -74,12 +74,22 @@ const Projects = () => {
       id: 4,
       url: "https://github.com/visheskeshari/Portfolio/tree/main",
       projectImage:
-        "https://raw.githubusercontent.com/visheskeshari/Portfolio/main/portfolio.png",
+        "https://raw.githubusercontent.com/visheskeshari/Portfolio/main/src/images/portfolio.png",
       projectTitle: "React.js based Portfolio",
       description:
         "The Portfolio web app is a responsive & dynamic website that provides an engaging user interface and a visually appealing presentations of my projects, skills, contact information, and additional details.",
       technologies:
         "React.js, Node.js, HTML, CSS, Javascript, Express.js, Three.js",
+    },
+    {
+      id: 5,
+      url: "https://speechtotextconverter-vk.netlify.app/",
+      projectImage:
+        "https://raw.githubusercontent.com/visheskeshari/Portfolio/main/src/images/SpechToTextConverter.png",
+      projectTitle: "Speech to Text Converter",
+      description:
+        "An application leverages the 'react-speech-recognition' hook to transcribe microphone speech to text and utilizes the 'react-use-clipboard' hook for seamless text copying to the clipboard.",
+      technologies: "React.js, Node.js, HTML, CSS, Javascript, React Hooks",
     },
   ];
 
